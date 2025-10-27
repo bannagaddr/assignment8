@@ -1,0 +1,290 @@
+[
+  {
+    "image": "https://cdn.pixabay.com/photo/2017/01/16/17/05/whatsapp-1984584_1280.png",
+    "title": "WhatsApp Messenger",
+    "companyName": "WhatsApp Inc.",
+    "id": 1,
+    "description": "Simple. Reliable. Private. Message and call for free around the world.",
+    "size": 85,
+    "reviews": 12543000,
+    "downloads": 5000000000,
+    "ratingAvg": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 1254300 },
+      { "name": "2 star", "count": 1254300 },
+      { "name": "3 star", "count": 2508600 },
+      { "name": "4 star", "count": 3762900 },
+      { "name": "5 star", "count": 3762900 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-psd/facebook-logo_1131634-497.jpg?w=1480",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Connect with friends, family and people who share the same interests.",
+    "size": 65,
+    "reviews": 9876500,
+    "downloads": 5000000000,
+    "ratingAvg": 3.8,
+    "ratings": [
+      { "name": "1 star", "count": 1975300 },
+      { "name": "2 star", "count": 1481475 },
+      { "name": "3 star", "count": 2469125 },
+      { "name": "4 star", "count": 1975300 },
+      { "name": "5 star", "count": 1975300 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-psd/instagram-application-logo_23-2151544088.jpg?w=1480",
+    "title": "Instagram",
+    "companyName": "Instagram",
+    "id": 3,
+    "description": "A simple, fun & creative way to capture, edit & share photos, videos & messages.",
+    "size": 45,
+    "reviews": 8567200,
+    "downloads": 3000000000,
+    "ratingAvg": 4.1,
+    "ratings": [
+      { "name": "1 star", "count": 856720 },
+      { "name": "2 star", "count": 856720 },
+      { "name": "3 star", "count": 1713440 },
+      { "name": "4 star", "count": 2570160 },
+      { "name": "5 star", "count": 2570160 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/youtube-logo-youtube-is-videosharing-website-youtube-icon-eps-10-vector-illustration_981536-469.jpg?w=1480",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 4,
+    "description": "Official YouTube app for Android. Watch your favorite videos and channels.",
+    "size": 55,
+    "reviews": 11234500,
+    "downloads": 5000000000,
+    "ratingAvg": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 1123450 },
+      { "name": "2 star", "count": 1123450 },
+      { "name": "3 star", "count": 2246900 },
+      { "name": "4 star", "count": 3370350 },
+      { "name": "5 star", "count": 3370350 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/set-tiktok-app-icons-social-media-logo-vector-illustration_277909-592.jpg?w=1480",
+    "title": "TikTok",
+    "companyName": "TikTok Ltd.",
+    "id": 5,
+    "description": "TikTok is THE destination for mobile videos. Watch, create, and discover content.",
+    "size": 120,
+    "reviews": 7654300,
+    "downloads": 2000000000,
+    "ratingAvg": 4.0,
+    "ratings": [
+      { "name": "1 star", "count": 765430 },
+      { "name": "2 star", "count": 765430 },
+      { "name": "3 star", "count": 1530860 },
+      { "name": "4 star", "count": 2296290 },
+      { "name": "5 star", "count": 2296290 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/free-vector/twitter-new-2023-x-logo-white-background-vector_1017-45422.jpg?t=st=1761544952~exp=1761548552~hmac=c71b5005da8628b62393ce41734748b70c3ed52d1e6d31d2f34b11bc28d8b52c&w=1480",
+    "title": "Twitter",
+    "companyName": "Twitter, Inc.",
+    "id": 6,
+    "description": "From breaking news and entertainment to sports and politics, get the full story.",
+    "size": 35,
+    "reviews": 6543200,
+    "downloads": 1000000000,
+    "ratingAvg": 3.9,
+    "ratings": [
+      { "name": "1 star", "count": 654320 },
+      { "name": "2 star", "count": 654320 },
+      { "name": "3 star", "count": 1308640 },
+      { "name": "4 star", "count": 1962960 },
+      { "name": "5 star", "count": 1962960 }
+    ]
+  },
+  {
+    "image": "https://img.freepik.com/premium-vector/spotify-logo-vector-square_667864-110.jpg?w=1480",
+    "title": "Spotify",
+    "companyName": "Spotify Ltd",
+    "id": 7,
+    "description": "Listen to music and podcasts for free. Stream your favorite songs and albums.",
+    "size": 75,
+    "reviews": 5432100,
+    "downloads": 1000000000,
+    "ratingAvg": 4.4,
+    "ratings": [
+      { "name": "1 star", "count": 543210 },
+      { "name": "2 star", "count": 543210 },
+      { "name": "3 star", "count": 1086420 },
+      { "name": "4 star", "count": 1629630 },
+      { "name": "5 star", "count": 1629630 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/732/732228.png?ga=GA1.1.926774835.1760189109",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 8,
+    "description": "Watch TV shows and movies recommended just for you, including award-winning content.",
+    "size": 95,
+    "reviews": 8765400,
+    "downloads": 1000000000,
+    "ratingAvg": 4.5,
+    "ratings": [
+      { "name": "1 star", "count": 876540 },
+      { "name": "2 star", "count": 876540 },
+      { "name": "3 star", "count": 1753080 },
+      { "name": "4 star", "count": 2629620 },
+      { "name": "5 star", "count": 2629620 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/4401/4401470.png?ga=GA1.1.926774835.1760189109",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications, Inc.",
+    "id": 9,
+    "description": "Zoom for Android makes it easy to start or join a secure video meeting.",
+    "size": 110,
+    "reviews": 4321000,
+    "downloads": 500000000,
+    "ratingAvg": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 432100 },
+      { "name": "2 star", "count": 432100 },
+      { "name": "3 star", "count": 864200 },
+      { "name": "4 star", "count": 1296300 },
+      { "name": "5 star", "count": 1296300 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/5968/5968534.png?ga=GA1.1.926774835.1760189109",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "id": 10,
+    "description": "Official Gmail app for Android. Easy and efficient email communication.",
+    "size": 40,
+    "reviews": 9876500,
+    "downloads": 5000000000,
+    "ratingAvg": 4.6,
+    "ratings": [
+      { "name": "1 star", "count": 987650 },
+      { "name": "2 star", "count": 987650 },
+      { "name": "3 star", "count": 1975300 },
+      { "name": "4 star", "count": 2962950 },
+      { "name": "5 star", "count": 2962950 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/2875/2875433.png?ga=GA1.1.926774835.1760189109",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "id": 11,
+    "description": "Navigate your world faster and easier with Google Maps.",
+    "size": 85,
+    "reviews": 7654300,
+    "downloads": 5000000000,
+    "ratingAvg": 4.3,
+    "ratings": [
+      { "name": "1 star", "count": 765430 },
+      { "name": "2 star", "count": 765430 },
+      { "name": "3 star", "count": 1530860 },
+      { "name": "4 star", "count": 2296290 },
+      { "name": "5 star", "count": 2296290 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/906/906349.png?ga=GA1.1.926774835.1760189109",
+    "title": "Microsoft Teams",
+    "companyName": "Microsoft Corporation",
+    "id": 12,
+    "description": "Chat, meet, call, and collaborate in just one place—no matter where you are.",
+    "size": 125,
+    "reviews": 3210000,
+    "downloads": 500000000,
+    "ratingAvg": 4.1,
+    "ratings": [
+      { "name": "1 star", "count": 321000 },
+      { "name": "2 star", "count": 321000 },
+      { "name": "3 star", "count": 642000 },
+      { "name": "4 star", "count": 963000 },
+      { "name": "5 star", "count": 963000 }
+    ]
+  },
+  {
+    "image": "https://thumbs.dreamstime.com/b/new-amazon-app-icon-vinnytsia-ukraine-may-features-s-smile-logo-design-along-hint-its-blue-packing-tape-219592602.jpg?w=768",
+    "title": "Amazon Shopping",
+    "companyName": "Amazon Mobile LLC",
+    "id": 13,
+    "description": "Shop millions of products, compare prices, and read reviews on the go.",
+    "size": 70,
+    "reviews": 5432100,
+    "downloads": 500000000,
+    "ratingAvg": 4.0,
+    "ratings": [
+      { "name": "1 star", "count": 543210 },
+      { "name": "2 star", "count": 543210 },
+      { "name": "3 star", "count": 1086420 },
+      { "name": "4 star", "count": 1629630 },
+      { "name": "5 star", "count": 1629630 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/5969/5969323.png?ga=GA1.1.926774835.1760189109",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 14,
+    "description": "Request a ride on demand or schedule one ahead of time.",
+    "size": 90,
+    "reviews": 4321000,
+    "downloads": 500000000,
+    "ratingAvg": 4.2,
+    "ratings": [
+      { "name": "1 star", "count": 432100 },
+      { "name": "2 star", "count": 432100 },
+      { "name": "3 star", "count": 864200 },
+      { "name": "4 star", "count": 1296300 },
+      { "name": "5 star", "count": 1296300 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/174/174857.png?ga=GA1.1.926774835.1760189109",
+    "title": "LinkedIn",
+    "companyName": "LinkedIn Corporation",
+    "id": 15,
+    "description": "Manage your professional identity. Build and engage with your professional network.",
+    "size": 55,
+    "reviews": 3210000,
+    "downloads": 500000000,
+    "ratingAvg": 4.1,
+    "ratings": [
+      { "name": "1 star", "count": 321000 },
+      { "name": "2 star", "count": 321000 },
+      { "name": "3 star", "count": 642000 },
+      { "name": "4 star", "count": 963000 },
+      { "name": "5 star", "count": 963000 }
+    ]
+  },
+  {
+    "image": "https://cdn-icons-png.freepik.com/512/13670/13670393.png?ga=GA1.1.926774835.1760189109",
+    "title": "Snapchat",
+    "companyName": "Snap Inc",
+    "id": 16,
+    "description": "Snapchat is a fast and fun way to share the moment with your friends and family.",
+    "size": 105,
+    "reviews": 6543200,
+    "downloads": 1000000000,
+    "ratingAvg": 3.8,
+    "ratings": [
+      { "name": "1 star", "count": 654320 },
+      { "name": "2 star", "count": 654320 },
+      { "name": "3 star", "count": 1308640 },
+      { "name": "4 star", "count": 1962960 },
+      { "name": "5 star", "count": 1962960 }
+    ]
+  }
+]
