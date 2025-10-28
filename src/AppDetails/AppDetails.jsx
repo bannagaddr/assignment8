@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { MdReviews } from "react-icons/md";
@@ -23,6 +23,28 @@ const AppDetails = () => {
 
   //   install button function state
   const [isInstalled, setIsInstalled] = useState(false);
+  useEffect(() => {
+    const installedApps =
+      JSON.parse(localStorage.getItem("installedApps")) || [];
+
+    const alreadyInstalled = installedApps.some((item) => item.id === app.id);
+    setIsInstalled(alreadyInstalled);
+  }, [app.id]);
+
+  const handleInstall = () => {
+    const installedApps =
+      JSON.parse(localStorage.getItem("installedApps")) || [];
+
+    if (!installedApps.some((item) => item.id === app.id)) {
+      installedApps.push(app);
+
+      localStorage.setItem("installedApps", JSON.stringify(installedApps));
+
+      setIsInstalled(true);
+    } else {
+      alert("it is already added here");
+    }
+  };
 
   return (
     <div className="p-3 sm:px-10 sm:py-10 inter w-full">
@@ -65,7 +87,7 @@ const AppDetails = () => {
             <button
               className="btn btn-primary font-medium bg-[#00D390] border-none outline-none text-white
 "
-              onClick={() => setIsInstalled(true)}
+              onClick={handleInstall}
               disabled={isInstalled}
             >
               {isInstalled ? "Installed" : `Install Now (${app.size} MB)`}

@@ -11,8 +11,12 @@ import AllApplication from "./AllApplication/AllApplication";
 import HomePage from "./HomePage/HomePage";
 import AppDetails from "./AppDetails/AppDetails";
 import LoadingSpinner from "./LoadingSpinner/LoadingSpinner";
+import ErrorPage from "./ErrorPage/ErrorPage";
 
 const router = createBrowserRouter([
+  {
+    errorElement: <ErrorPage></ErrorPage>,
+  },
   {
     // by default showing it
     path: "/",
