@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
+import { Link } from "react-router";
 
 const TrendingApps = () => {
   const [apps, setApps] = useState([]);
@@ -8,7 +9,7 @@ const TrendingApps = () => {
     fetch("/appDetails.json")
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         setApps(data);
       });
   }, []);
@@ -60,8 +61,13 @@ const TrendingApps = () => {
         ))}
       </div>
 
-      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-3 py-2 sm:px-10 sm:py-3 rounded-md mx-auto">
-        <button className="text-white font-medium">Show All</button>
+      <div className="mx-auto">
+        <Link
+          to="/all_application"
+          className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md text-white font-medium btn btn-primary px-10 border-none outline-none"
+        >
+          Show All
+        </Link>
       </div>
     </div>
   );

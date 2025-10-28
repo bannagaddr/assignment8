@@ -1,22 +1,15 @@
-import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { CiSearch } from "react-icons/ci";
+import { Link, useLoaderData } from "react-router";
 
 const AllApplication = () => {
-  const [apps, setApps] = useState([]);
-  useEffect(() => {
-    fetch("/appDetails.json")
-      .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        setApps(data);
-      });
-  }, []);
+  const appData = useLoaderData();
+  // console.log(appData);
 
   const formatNumber = (number) => {
     if (number >= 1000000000) {
-      return (number / 1000000_000).toFixed(1) + "B"; // Billion
+      return (number / 1000000000).toFixed(1) + "B"; // Billion
     } else if (number >= 1000000) {
       return (number / 1000000).toFixed(1) + "M"; // Million
     } else if (number >= 1000) {
@@ -35,8 +28,10 @@ const AllApplication = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-between">
-        <h3 className="font-bold">({apps.length}) Apps Found</h3>
+      <div className="flex flex-col gap-4 sm:flex-row items-center justify-between">
+        <div>
+          <h3 className="font-bold">({appData.length}) Apps Found</h3>
+        </div>
         <div className="flex items-center gap-2 border-2 border-gray-300 p-2 rounded-md">
           <CiSearch className="text-lg" />
           <input
@@ -50,8 +45,9 @@ const AllApplication = () => {
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-4 sm:grid-rows-2 gap-4">
-        {apps.map((app) => (
-          <div
+        {appData.map((app) => (
+          <Link
+            to={`/app/${app.id}`}
             key={app.id}
             className="p-4 bg-white rounded-lg gap-3 flex flex-col"
           >
@@ -71,7 +67,7 @@ const AllApplication = () => {
                 {app.ratingAvg}
               </button>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>

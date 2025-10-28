@@ -1,17 +1,16 @@
 import "./index.css";
 import Header from "./pages/Header/Header";
 import Footer from "./pages/Footer/Footer";
-import Home from "./Home/Home";
-import Rating from "./Rating/Rating";
-import TrendingApps from "./TrendingApps/TrendingApps";
+import { Outlet, useNavigation } from "react-router";
+import LoadingSpinner from "./LoadingSpinner/LoadingSpinner";
 
 function App() {
+  const navigation = useNavigation();
   return (
     <>
       <Header></Header>
-      <Home></Home>
-      <Rating></Rating>
-      <TrendingApps></TrendingApps>
+      {navigation.state === "loading" ? <LoadingSpinner /> : <Outlet></Outlet>}
+
       <Footer></Footer>
     </>
   );

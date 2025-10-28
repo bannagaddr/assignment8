@@ -6,9 +6,11 @@ import { Link } from "react-router";
 const Header = () => {
   return (
     <div className="p-3 sm:px-10 sm:py-5 border-b-2 border-[#f4f4f4cb] flex items-center justify-between inter">
-      <div className="flex items-center gap-2">
-        <img src={logo} alt="" className="w-10" />
-        <h2 className="font-semibold">HERO.IO</h2>
+      <div>
+        <Link to="/hero.io" className="flex items-center gap-2">
+          <img src={logo} alt="" className="w-10" />
+          <h2 className="font-semibold">HERO.IO</h2>
+        </Link>
       </div>
       <div className="hidden sm:block">
         <ul className="flex gap-5">
@@ -23,8 +25,8 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-3 py-2 sm:px-5 sm:py-3 rounded-md">
-        <button className="flex items-center gap-2 text-white font-medium">
+      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md">
+        <button className="flex items-center gap-2 text-white font-medium btn btn-primary">
           <FaGithub className="text-lg" />
           Contribute
         </button>

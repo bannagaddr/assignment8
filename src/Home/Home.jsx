@@ -5,7 +5,7 @@ import hero from "../assets/hero.png";
 
 const Home = () => {
   return (
-    <div className="p-3 sm:px-10 my-15 sm:p-0 sm:mb-0 flex flex-col gap-10 inter">
+    <div className="p-3 sm:px-10 sm:pt-10 sm:p-0 sm:mb-0 flex flex-col gap-10 inter bg-[#F5F5F5]">
       <div>
         <p className="text-3xl/10 sm:text-5xl/15 font-bold text-center">
           <span>We Build</span> <br />{" "}
