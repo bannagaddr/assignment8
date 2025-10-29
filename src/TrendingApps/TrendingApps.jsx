@@ -37,7 +37,8 @@ const TrendingApps = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 sm:grid-rows-2 gap-4">
         {apps.slice(0, 8).map((app) => (
-          <div
+          <Link
+            to={`/app/${app.id}`}
             key={app.id}
             className="p-4 bg-white rounded-lg gap-3 flex flex-col"
           >
@@ -57,14 +58,14 @@ const TrendingApps = () => {
                 {app.ratingAvg}
               </button>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
 
       <div className="mx-auto">
         <Link
           to="/all_application"
-          className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] rounded-md text-white font-medium btn btn-primary px-10 border-none outline-none"
+          className="rounded-sm text-white font-medium btn btn-sm sm:btn-md bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-10 border-none outline-none"
         >
           Show All
         </Link>

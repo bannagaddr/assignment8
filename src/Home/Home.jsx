@@ -2,6 +2,7 @@ import React from "react";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 import hero from "../assets/hero.png";
+import { Link } from "react-router";
 
 const Home = () => {
   return (
@@ -23,15 +24,25 @@ const Home = () => {
           digital experiences that truly make an impact.
         </p>
       </div>
+
       <div className="flex flex-col sm:flex-row items-center justify-center gap-5">
-        <button className="flex items-center gap-2 font-medium border border-[#D2D2D2] rounded-md px-3 py-2 sm:px-5 sm:py-3">
-          <IoLogoGooglePlaystore className="text-2xl" />
-          Google Play
-        </button>
-        <button className="flex items-center gap-2 font-medium border border-[#D2D2D2] rounded-md px-3 py-2 sm:px-5 sm:py-3">
-          <FaAppStoreIos className="text-2xl" />
-          App Store
-        </button>
+        <div>
+          <Link to="https://play.google.com/store/games?hl=en">
+            <button className="btn btn-outline outline-none flex items-center gap-2 font-medium border border-[#D2D2D2] rounded-md px-3 py-2 sm:px-5 sm:py-3">
+              <IoLogoGooglePlaystore className="text-2xl" />
+              Google Play
+            </button>
+          </Link>
+        </div>
+
+        <div>
+          <Link to="https://www.apple.com/app-store/">
+            <button className="btn btn-outline outline-none flex items-center gap-2 font-medium border border-[#D2D2D2] rounded-md px-3 py-2 sm:px-5 sm:py-3">
+              <FaAppStoreIos className="text-2xl" />
+              App Store
+            </button>
+          </Link>
+        </div>
       </div>
       <div>
         <img src={hero} alt="" className="w-150 mx-auto" />
